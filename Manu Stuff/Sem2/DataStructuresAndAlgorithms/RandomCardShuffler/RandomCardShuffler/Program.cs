@@ -12,14 +12,12 @@ namespace RandomCardShuffler
         static void Main(string[] args)
         {
             Card playingCard = new Card();
-            string[] cards = new string[52];
-            string[] shuffledCards = new string[52];
+            Card[] cards = new Card[52];
+            Card[] shuffledCards = new Card[52];
             int i = 0;
 
-
-            
-
-
+            Card[] cardValue1 = new Card[4];
+            Card[] cardValue2 = new Card[4];
 
 
 
@@ -33,10 +31,10 @@ namespace RandomCardShuffler
                 playingCard.CardSuit = crdsut;
                 foreach (CardRanks crdrnk in Enum.GetValues(typeof(CardRanks)))
                 {
-                    
+
 
                     playingCard.CardRank = crdrnk;
-                    cards[i] = playingCard.ToString();
+                    cards[i] = playingCard;
                     Console.WriteLine(cards[i]);
                     i++;
                 }
@@ -55,12 +53,38 @@ namespace RandomCardShuffler
             }
 
 
-            //pick first five shuffled cards
+            //pick first five shuffled cards for first deck
+            cardValue1[0].CardRank = shuffledCards[0].CardRank;     cardValue1[0].CardSuit = shuffledCards[0].CardSuit;
+            cardValue1[1].CardRank = shuffledCards[1].CardRank;     cardValue1[1].CardSuit = shuffledCards[1].CardSuit;
+            cardValue1[2].CardRank = shuffledCards[2].CardRank;     cardValue1[2].CardSuit = shuffledCards[2].CardSuit;
+            cardValue1[3].CardRank = shuffledCards[3].CardRank;     cardValue1[3].CardSuit = shuffledCards[3].CardSuit;
+            cardValue1[4].CardRank = shuffledCards[4].CardRank;     cardValue1[4].CardSuit = shuffledCards[4].CardSuit;
+
+            //pick second five shuffled cards for second deck
+            cardValue2[0].CardRank = shuffledCards[5].CardRank;     cardValue2[0].CardSuit = shuffledCards[5].CardSuit;
+            cardValue2[1].CardRank = shuffledCards[6].CardRank;     cardValue2[1].CardSuit = shuffledCards[6].CardSuit;
+            cardValue2[2].CardRank = shuffledCards[7].CardRank;     cardValue2[2].CardSuit = shuffledCards[7].CardSuit;
+            cardValue2[3].CardRank = shuffledCards[8].CardRank;     cardValue2[3].CardSuit = shuffledCards[8].CardSuit;
+            cardValue2[4].CardRank = shuffledCards[9].CardRank;     cardValue2[4].CardSuit = shuffledCards[9].CardSuit;
+
+            
 
 
 
 
 
+
+
+
+
+
+
+
+            for (int n = 0; n < 5; n++)
+            {
+                
+
+            }
 
 
 
@@ -68,6 +92,8 @@ namespace RandomCardShuffler
             Console.ReadLine();
 
         }
+
+
 
 
 
@@ -96,106 +122,7 @@ namespace RandomCardShuffler
             return array;
         }
 
-
-        //***********************************************************************************
-        //Things i might need later:
-
-
-        //_______________________________________________________________________________________________________________
-        //bool hearts = false; bool spades = false; bool diamonds = false; bool clubs = false;
-
-        //bool ace = false; bool two = false; bool three = false; bool four = false; bool five = false; bool six = false;
-        //bool seven = false; bool eight = false; bool nine = false; bool ten = false;
-        //bool jack = false; bool queen = false; bool king = false;
-
-        //if(crdsut == CardSuits.Hearts)
-        //            {
-        //                hearts = true;
-        //            }
-
-        //            if (crdsut == CardSuits.Spades)
-        //            {
-        //                spades = true;
-        //            }
-
-        //            if (crdsut == CardSuits.Diamonds)
-        //            {
-        //                diamonds = true;
-        //            }
-
-        //            if (crdsut == CardSuits.Clubs)
-        //            {
-        //                clubs = true;
-        //            }
-
-        //            //*****************************
-
-        //            if (crdrnk == CardRanks.Ace)
-        //            {
-        //                ace = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.Two)
-        //            {
-        //                two = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.Three)
-        //            {
-        //                three = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.Four)
-        //            {
-        //                four = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.Five)
-        //            {
-        //                five = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.Six)
-        //            {
-        //                six = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.Seven)
-        //            {
-        //                seven = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.Eight)
-        //            {
-        //                eight = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.Nine)
-        //            {
-        //                nine = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.Ten)
-        //            {
-        //                ten = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.Jack)
-        //            {
-        //                jack = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.Queen)
-        //            {
-        //                queen = true;
-        //            }
-
-        //            if (crdrnk == CardRanks.King)
-        //            {
-        //                king = true;
-        //            }
-        //_______________________________________________________________________________________________________________
-
+        
     }
 
 }
