@@ -1,0 +1,6 @@
+E:\CMPE1300\In Class Examples\RectArray\RectArray\bin\Debug\RectArray.exe.config
+E:\CMPE1300\In Class Examples\RectArray\RectArray\obj\Debug\RectArray.csprojResolveAssemblyReference.cache
+E:\CMPE1300\In Class Examples\RectArray\RectArray\bin\Debug\RectArray.exe
+E:\CMPE1300\In Class Examples\RectArray\RectArray\bin\Debug\RectArray.pdb
+E:\CMPE1300\In Class Examples\RectArray\RectArray\obj\Debug\RectArray.exe
+E:\CMPE1300\In Class Examples\RectArray\RectArray\obj\Debug\RectArray.pdb

@@ -1,0 +1,13 @@
+C:\Users\mmathews2\Desktop\TipCalc\TipCalc\bin\Debug\TipCalc.exe.config
+C:\Users\mmathews2\Desktop\TipCalc\TipCalc\bin\Debug\TipCalc.exe
+C:\Users\mmathews2\Desktop\TipCalc\TipCalc\bin\Debug\TipCalc.pdb
+C:\Users\mmathews2\Desktop\TipCalc\TipCalc\obj\Debug\TipCalc.csprojResolveAssemblyReference.cache
+C:\Users\mmathews2\Desktop\TipCalc\TipCalc\obj\Debug\TipCalc.exe
+C:\Users\mmathews2\Desktop\TipCalc\TipCalc\obj\Debug\TipCalc.pdb
+C:\Users\mmathews2\Desktop\TipCalc\TipCalc\bin\Debug\MyLibrary.dll
+F:\CMPE1300\In Class Examples\TipCalc\TipCalc\bin\Debug\TipCalc.exe.config
+F:\CMPE1300\In Class Examples\TipCalc\TipCalc\obj\Debug\TipCalc.exe
+F:\CMPE1300\In Class Examples\TipCalc\TipCalc\obj\Debug\TipCalc.pdb
+E:\CMPE1300\In Class Examples\TipCalc\TipCalc\bin\Debug\TipCalc.exe.config
+E:\CMPE1300\In Class Examples\TipCalc\TipCalc\obj\Debug\TipCalc.exe
+E:\CMPE1300\In Class Examples\TipCalc\TipCalc\obj\Debug\TipCalc.pdb

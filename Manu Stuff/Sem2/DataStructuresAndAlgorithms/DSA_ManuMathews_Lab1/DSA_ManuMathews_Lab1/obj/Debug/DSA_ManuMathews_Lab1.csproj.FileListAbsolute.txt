@@ -1,0 +1,5 @@
+G:\Manu Stuff\Sem2\DataStructuresAndAlgorithms\DSA_ManuMathews_Lab1\DSA_ManuMathews_Lab1\bin\Debug\DSA_ManuMathews_Lab1.exe.config
+G:\Manu Stuff\Sem2\DataStructuresAndAlgorithms\DSA_ManuMathews_Lab1\DSA_ManuMathews_Lab1\bin\Debug\DSA_ManuMathews_Lab1.exe
+G:\Manu Stuff\Sem2\DataStructuresAndAlgorithms\DSA_ManuMathews_Lab1\DSA_ManuMathews_Lab1\bin\Debug\DSA_ManuMathews_Lab1.pdb
+G:\Manu Stuff\Sem2\DataStructuresAndAlgorithms\DSA_ManuMathews_Lab1\DSA_ManuMathews_Lab1\obj\Debug\DSA_ManuMathews_Lab1.exe
+G:\Manu Stuff\Sem2\DataStructuresAndAlgorithms\DSA_ManuMathews_Lab1\DSA_ManuMathews_Lab1\obj\Debug\DSA_ManuMathews_Lab1.pdb

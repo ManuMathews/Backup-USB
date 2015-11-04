@@ -1,0 +1,12 @@
+G:\CNT\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\bin\Debug\CMPE1700KihyunLeeLab01.exe.config
+G:\CNT\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\bin\Debug\CMPE1700KihyunLeeLab01.exe
+G:\CNT\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\bin\Debug\CMPE1700KihyunLeeLab01.pdb
+G:\CNT\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\obj\Debug\CMPE1700KihyunLeeLab01.csprojResolveAssemblyReference.cache
+G:\CNT\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\obj\Debug\CMPE1700KihyunLeeLab01.exe
+G:\CNT\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\obj\Debug\CMPE1700KihyunLeeLab01.pdb
+C:\Users\Admin\Desktop\Manu Stuff\GitHub\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\bin\Debug\CMPE1700KihyunLeeLab01.exe.config
+C:\Users\Admin\Desktop\Manu Stuff\GitHub\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\obj\Debug\CMPE1700KihyunLeeLab01.exe
+C:\Users\Admin\Desktop\Manu Stuff\GitHub\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\obj\Debug\CMPE1700KihyunLeeLab01.pdb
+C:\Users\Admin\Desktop\Manu Stuff\GitHub\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\bin\Debug\CMPE1700KihyunLeeLab01.exe
+C:\Users\Admin\Desktop\Manu Stuff\GitHub\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\bin\Debug\CMPE1700KihyunLeeLab01.pdb
+C:\Users\Admin\Desktop\Manu Stuff\GitHub\CMPE1700\CMPE1700KihyunLeeLab01\CMPE1700KihyunLeeLab01\obj\Debug\CMPE1700KihyunLeeLab01.csprojResolveAssemblyReference.cache

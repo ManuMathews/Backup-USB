@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30626.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMPE1300ManuMathewsAssignment14", "CMPE1300ManuMathewsAssignment14\CMPE1300ManuMathewsAssignment14.csproj", "{EF5B2597-4751-4497-AE29-D2CBF34C9ADA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF5B2597-4751-4497-AE29-D2CBF34C9ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5B2597-4751-4497-AE29-D2CBF34C9ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5B2597-4751-4497-AE29-D2CBF34C9ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5B2597-4751-4497-AE29-D2CBF34C9ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

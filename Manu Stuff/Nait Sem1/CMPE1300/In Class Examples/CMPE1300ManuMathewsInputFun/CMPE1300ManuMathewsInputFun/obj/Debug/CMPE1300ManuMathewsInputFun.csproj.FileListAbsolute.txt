@@ -1,0 +1,6 @@
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsInputFun\CMPE1300ManuMathewsInputFun\bin\Debug\CMPE1300ManuMathewsInputFun.exe.config
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsInputFun\CMPE1300ManuMathewsInputFun\bin\Debug\CMPE1300ManuMathewsInputFun.exe
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsInputFun\CMPE1300ManuMathewsInputFun\bin\Debug\CMPE1300ManuMathewsInputFun.pdb
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsInputFun\CMPE1300ManuMathewsInputFun\obj\Debug\CMPE1300ManuMathewsInputFun.csprojResolveAssemblyReference.cache
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsInputFun\CMPE1300ManuMathewsInputFun\obj\Debug\CMPE1300ManuMathewsInputFun.exe
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsInputFun\CMPE1300ManuMathewsInputFun\obj\Debug\CMPE1300ManuMathewsInputFun.pdb

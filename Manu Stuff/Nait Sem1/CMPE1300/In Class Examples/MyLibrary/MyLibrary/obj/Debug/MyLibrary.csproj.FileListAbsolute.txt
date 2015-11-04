@@ -1,0 +1,4 @@
+C:\Users\mmathews2\Desktop\MyLibrary\MyLibrary\bin\Debug\MyLibrary.dll
+C:\Users\mmathews2\Desktop\MyLibrary\MyLibrary\bin\Debug\MyLibrary.pdb
+C:\Users\mmathews2\Desktop\MyLibrary\MyLibrary\obj\Debug\MyLibrary.dll
+C:\Users\mmathews2\Desktop\MyLibrary\MyLibrary\obj\Debug\MyLibrary.pdb

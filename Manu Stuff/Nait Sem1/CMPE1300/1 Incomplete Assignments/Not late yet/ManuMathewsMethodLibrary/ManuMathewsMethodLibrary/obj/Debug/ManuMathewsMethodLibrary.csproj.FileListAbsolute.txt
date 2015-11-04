@@ -1,0 +1,5 @@
+E:\CMPE1300\1 Incomplete Assignments\Not late yet\ManuMathewsMethodLibrary\ManuMathewsMethodLibrary\bin\Debug\ManuMathewsMethodLibrary.dll
+E:\CMPE1300\1 Incomplete Assignments\Not late yet\ManuMathewsMethodLibrary\ManuMathewsMethodLibrary\bin\Debug\ManuMathewsMethodLibrary.pdb
+E:\CMPE1300\1 Incomplete Assignments\Not late yet\ManuMathewsMethodLibrary\ManuMathewsMethodLibrary\obj\Debug\ManuMathewsMethodLibrary.csprojResolveAssemblyReference.cache
+E:\CMPE1300\1 Incomplete Assignments\Not late yet\ManuMathewsMethodLibrary\ManuMathewsMethodLibrary\obj\Debug\ManuMathewsMethodLibrary.dll
+E:\CMPE1300\1 Incomplete Assignments\Not late yet\ManuMathewsMethodLibrary\ManuMathewsMethodLibrary\obj\Debug\ManuMathewsMethodLibrary.pdb

@@ -1,0 +1,84 @@
+if(color == Color.Red) && lineDirection.Key = ConsoleKey.UpArrow)
+{
+    
+    colorAtMove_PlaceDesignator[v] = 1;
+    v += 1;
+}
+
+if(color == Color.Red && lineDirection.Key = ConsoleKey.DownArrow)
+{
+
+    colorAtMove_PlaceDesignator[v] = 2;
+    v += 1;
+}
+
+if(color == Color.Red && lineDirection.Key = ConsoleKey.LeftArrow)
+{
+
+    colorAtMove_PlaceDesignator[v] = 3;
+    v += 1;
+}
+
+if(color == Color.Red && lineDirection.Key = ConsoleKey.RightArrow)
+{
+
+    colorAtMove_PlaceDesignator[v] = 4;
+    v += 1;
+}
+
+if(color == Color.Green && lineDirection.Key = ConsoleKey.UpArrow)
+{
+
+    colorAtMove_PlaceDesignator[v] = 5;
+    v += 1;
+}
+
+if(color == Color.Green && lineDirection.Key = ConsoleKey.DownArrow)
+{
+
+    colorAtMove_PlaceDesignator[v] = 6;
+    v += 1;
+}
+
+if(color == Color.Green && lineDirection.Key = ConsoleKey.LeftArrow)
+{
+
+    colorAtMove_PlaceDesignator[v] = 7;
+    v += 1;
+}
+
+if(color == Color.Green && lineDirection.Key = ConsoleKey.RightArrow)
+{
+
+    colorAtMove_PlaceDesignator[v] = 8;
+    v += 1;
+}
+
+if(color == Color.Blue && lineDirection.Key = ConsoleKey.UpArrow)
+{
+
+    colorAtMove_PlaceDesignator[v] = 9;
+    v += 1;
+}
+
+if(color == Color.Blue && lineDirection.Key = ConsoleKey.DownArrow)
+{
+
+    colorAtMove_PlaceDesignator[v] = 10;
+    v += 1;+
+}
+
+if(color == Color.Blue && lineDirection.Key = ConsoleKey.LeftArrow)
+{
+
+    colorAtMove_PlaceDesignator[v] = 11;
+    v += 1;
+}
+
+if(color == Color.Blue && lineDirection.Key = ConsoleKey.RightArrow)
+{
+
+    colorAtMove_PlaceDesignator[v] = 12;
+    v += 1;
+}
+

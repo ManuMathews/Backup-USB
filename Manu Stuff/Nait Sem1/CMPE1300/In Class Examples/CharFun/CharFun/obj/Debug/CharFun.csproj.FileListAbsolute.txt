@@ -1,0 +1,6 @@
+E:\CMPE1300\In Class Examples\CharFun\CharFun\bin\Debug\CharFun.exe.config
+E:\CMPE1300\In Class Examples\CharFun\CharFun\bin\Debug\CharFun.exe
+E:\CMPE1300\In Class Examples\CharFun\CharFun\bin\Debug\CharFun.pdb
+E:\CMPE1300\In Class Examples\CharFun\CharFun\obj\Debug\CharFun.csprojResolveAssemblyReference.cache
+E:\CMPE1300\In Class Examples\CharFun\CharFun\obj\Debug\CharFun.exe
+E:\CMPE1300\In Class Examples\CharFun\CharFun\obj\Debug\CharFun.pdb

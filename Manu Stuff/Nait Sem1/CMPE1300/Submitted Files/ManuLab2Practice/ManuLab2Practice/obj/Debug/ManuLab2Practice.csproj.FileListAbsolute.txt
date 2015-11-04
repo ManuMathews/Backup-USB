@@ -1,0 +1,6 @@
+F:\CMPE1300\ManuLab2Practice\ManuLab2Practice\bin\Debug\ManuLab2Practice.exe.config
+F:\CMPE1300\ManuLab2Practice\ManuLab2Practice\bin\Debug\ManuLab2Practice.exe
+F:\CMPE1300\ManuLab2Practice\ManuLab2Practice\bin\Debug\ManuLab2Practice.pdb
+F:\CMPE1300\ManuLab2Practice\ManuLab2Practice\obj\Debug\ManuLab2Practice.csprojResolveAssemblyReference.cache
+F:\CMPE1300\ManuLab2Practice\ManuLab2Practice\obj\Debug\ManuLab2Practice.exe
+F:\CMPE1300\ManuLab2Practice\ManuLab2Practice\obj\Debug\ManuLab2Practice.pdb

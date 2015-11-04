@@ -1,0 +1,24 @@
+
+
+
+
+
+
+addWeights = weightOne+ weightTwo+ weightThree+ weightFour+ weightFive+ weightSix+ weightSeven+ weightEight+ weightNine+ weightTen;
+
+
+
+
+
+gradeTimesWeights = (gradeOne* weightOne) + (gradeTwo* weightTwo) + (gradeThree* weightThree) + (gradeFour * weightFour) + (gradeFive * weightFive) + (gradeSix * weightSix) + (gradeSeven * weightSeven) + (gradeEight * weightEight) + (gradeNine * weightNine) + (gradeTen * weightTen)
+
+
+
+
+
+Console.WriteLine("Your weighted average for the supplied grades is {0}", answer);
+
+
+
+
+answer = gradeTimesWeights / addWeights;

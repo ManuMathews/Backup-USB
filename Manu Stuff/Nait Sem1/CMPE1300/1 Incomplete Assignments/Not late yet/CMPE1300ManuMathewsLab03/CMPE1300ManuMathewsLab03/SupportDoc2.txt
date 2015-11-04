@@ -1,0 +1,111 @@
+if(color == Color.Red)
+{
+if(lineDirection.Key = ConsoleKey.UpArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, r);
+    colorAtMove_PlaceDesignator[v] = 1;
+    v += 1;
+}
+
+if(lineDirection.Key = ConsoleKey.DownArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, r);
+    colorAtMove_PlaceDesignator[v] = 2;
+    v += 1;
+}
+
+if(lineDirection.Key = ConsoleKey.LeftArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, r);
+    colorAtMove_PlaceDesignator[v] = 3;
+    v += 1;
+}
+
+if(lineDirection.Key = ConsoleKey.RightArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, r);
+    colorAtMove_PlaceDesignator[v] = 4;
+    v += 1;
+}
+}
+
+
+if(color == Color.Green)
+{
+if(lineDirection.Key = ConsoleKey.UpArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, g);    
+    colorAtMove_PlaceDesignator[v] = 5;
+    v += 1;
+}
+if(lineDirection.Key = ConsoleKey.DownArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, g);    
+    colorAtMove_PlaceDesignator[v] = 6;
+    v += 1;
+}
+if(lineDirection.Key = ConsoleKey.LeftArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, g);    
+    colorAtMove_PlaceDesignator[v] = 7;
+    v += 1;
+}
+if(lineDirection.Key = ConsoleKey.RightArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, g);    
+    colorAtMove_PlaceDesignator[v] = 8;
+    v += 1;
+}
+}
+
+
+if(color == Color.Blue)
+{
+if(lineDirection.Key = ConsoleKey.UpArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, b);    
+    colorAtMove_PlaceDesignator[v] = 9;
+    v += 1;
+}
+if(lineDirection.Key = ConsoleKey.DownArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, b);    
+    colorAtMove_PlaceDesignator[v] = 10;
+    v += 1;
+}
+if(lineDirection.Key = ConsoleKey.LeftArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, b);    
+    colorAtMove_PlaceDesignator[v] = 11;
+    v += 1;
+}
+if(lineDirection.Key = ConsoleKey.RightArrow)
+{
+    s_Draw.SetBBPixel(xPoint, ypoint, b);    
+    colorAtMove_PlaceDesignator[v] = 12;
+    v += 1;
+}
+
+}
+
+
+___________________________________________________
+
+
+
+
+yCoordinate += 1;
+
+yCoordinate -= 1;
+
+xCoordinate -= 1;
+
+xCoordinate += 1;
+
+
+
+
+
+
+
+

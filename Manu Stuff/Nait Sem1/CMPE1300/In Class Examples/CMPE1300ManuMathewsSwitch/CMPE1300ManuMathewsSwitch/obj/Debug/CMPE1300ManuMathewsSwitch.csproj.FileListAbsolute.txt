@@ -1,0 +1,9 @@
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsSwitch\CMPE1300ManuMathewsSwitch\bin\Debug\CMPE1300ManuMathewsSwitch.exe.config
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsSwitch\CMPE1300ManuMathewsSwitch\bin\Debug\CMPE1300ManuMathewsSwitch.exe
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsSwitch\CMPE1300ManuMathewsSwitch\bin\Debug\CMPE1300ManuMathewsSwitch.pdb
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsSwitch\CMPE1300ManuMathewsSwitch\obj\Debug\CMPE1300ManuMathewsSwitch.csprojResolveAssemblyReference.cache
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsSwitch\CMPE1300ManuMathewsSwitch\obj\Debug\CMPE1300ManuMathewsSwitch.exe
+C:\Users\mmathews2\Desktop\CMPE1300ManuMathewsSwitch\CMPE1300ManuMathewsSwitch\obj\Debug\CMPE1300ManuMathewsSwitch.pdb
+E:\CMPE1300ManuMathewsSwitch\CMPE1300ManuMathewsSwitch\bin\Debug\CMPE1300ManuMathewsSwitch.exe.config
+E:\CMPE1300ManuMathewsSwitch\CMPE1300ManuMathewsSwitch\obj\Debug\CMPE1300ManuMathewsSwitch.exe
+E:\CMPE1300ManuMathewsSwitch\CMPE1300ManuMathewsSwitch\obj\Debug\CMPE1300ManuMathewsSwitch.csprojResolveAssemblyReference.cache
