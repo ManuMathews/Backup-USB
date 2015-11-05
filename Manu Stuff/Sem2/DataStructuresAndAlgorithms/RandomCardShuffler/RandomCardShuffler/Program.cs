@@ -66,25 +66,66 @@ namespace RandomCardShuffler
             cardValue2[2].CardRank = shuffledCards[7].CardRank;     cardValue2[2].CardSuit = shuffledCards[7].CardSuit;
             cardValue2[3].CardRank = shuffledCards[8].CardRank;     cardValue2[3].CardSuit = shuffledCards[8].CardSuit;
             cardValue2[4].CardRank = shuffledCards[9].CardRank;     cardValue2[4].CardSuit = shuffledCards[9].CardSuit;
-
             
+            int numberOfAcesInOne = 0;
+            int numberOfTwosInOne = 0;
+            int numberOfThreesInOne = 0;
+            int numberOfFoursInOne = 0;
+            int numberOfFivesInOne = 0;
+            int numberOfSixesInOne = 0;
+            int numberOfSevensInOne = 0;
+            int numberOfEightsInOne = 0;
+            int numberOfNinesInOne = 0;
+            int numberOfTensInOne = 0;
+            int numberOfJacksInOne = 0;
+            int numberOfQueensInOne = 0;
+            int numberOfKingssInOne = 0;
+            
+            //Checking first deck for same rank cards/counting those cards
+            numberOfAcesInOne = CardRankCounter(cardValue1, CardRanks.Ace);
+            numberOfTwosInOne = CardRankCounter(cardValue1,CardRanks.Two);
+            numberOfThreesInOne = CardRankCounter(cardValue1,CardRanks.Three);
+            numberOfFoursInOne = CardRankCounter(cardValue1, CardRanks.Four);
+            numberOfFivesInOne = CardRankCounter(cardValue1, CardRanks.Five);
+            numberOfSixesInOne = CardRankCounter(cardValue1,CardRanks.Six);
+            numberOfSevensInOne = CardRankCounter(cardValue1,CardRanks.Seven);
+            numberOfEightsInOne = CardRankCounter(cardValue1,CardRanks.Eight);
+            numberOfNinesInOne = CardRankCounter(cardValue1,CardRanks.Nine);
+            numberOfTensInOne = CardRankCounter(cardValue1,CardRanks.Ten);
+            numberOfJacksInOne = CardRankCounter(cardValue1,CardRanks.Jack);
+            numberOfQueensInOne = CardRankCounter(cardValue1,CardRanks.Queen);
+            numberOfKingssInOne = CardRankCounter(cardValue1,CardRanks.King);
+
+
+            //decide which poker hand they have:
+            bool threeOfAKind = false;
+            bool twoPair = false;
+            bool onePair = false;
 
 
 
-
-
-
-
-
-
-
-
-
-            for (int n = 0; n < 5; n++)
+            if (numberOfAcesInOne == 3 || numberOfTwosInOne == 3 || numberOfThreesInOne == 3 || numberOfFoursInOne == 3 || numberOfFivesInOne == 3|| numberOfSixesInOne == 3|| numberOfSevensInOne ==3 || numberOfEightsInOne == 3|| numberOfNinesInOne ==3|| numberOfTensInOne == 3|| numberOfJacksInOne == 3|| numberOfQueensInOne == 3|| numberOfKingssInOne == 3)
             {
-                
+                threeOfAKind = true;
 
             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -98,20 +139,20 @@ namespace RandomCardShuffler
 
 
         //**********Shuffle Cards Here**********
-        static string[] shuffler(string[] array)
+        static Card[] shuffler(Card[] array)
         {
             int a = 0;
             int b = 51;
             int r = 0;
-            string cardNotLastOne;
-            string cardLastOne;
+            Card cardNotLastOne;
+            Card cardLastOne;
             Random randomNumber = new Random();
 
             while (b >= 1)
             {
                 r = randomNumber.Next(a, b);
 
-                cardNotLastOne = array[r].ToString();
+                cardNotLastOne = array[r];
                 cardLastOne = array[b];
 
                 array[r] = cardLastOne;
@@ -121,6 +162,28 @@ namespace RandomCardShuffler
             }
             return array;
         }
+
+
+
+        static int CardRankCounter(Card[] setOfCards, CardRanks crdrnk)
+        {
+            int setLength = 5;
+            int returnValue = 0;
+
+            for (int n = 0; n < setLength; n++)
+            {
+                
+                if (setOfCards[n].CardRank == crdrnk)
+                {
+                    returnValue++;
+                }
+
+            }
+
+
+            return returnValue;
+        }
+
 
         
     }
