@@ -7,3 +7,12 @@ E:\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\ob
 E:\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\obj\Debug\ManuMathews_Lab1.csproj.GenerateResource.Cache
 E:\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\obj\Debug\ManuMathews_Lab1.exe
 E:\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\obj\Debug\ManuMathews_Lab1.pdb
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\bin\Debug\ManuMathews_Lab1.exe.config
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\obj\Debug\ManuMathews_Lab1.exe
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\obj\Debug\ManuMathews_Lab1.pdb
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\bin\Debug\ManuMathews_Lab1.exe
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\bin\Debug\ManuMathews_Lab1.pdb
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\obj\Debug\ManuMathews_Lab1.csprojResolveAssemblyReference.cache
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\obj\Debug\ManuMathews_Lab1.Form1.resources
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\obj\Debug\ManuMathews_Lab1.Properties.Resources.resources
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\Event Driven Programming\ManuMathews_Lab1\ManuMathews_Lab1\obj\Debug\ManuMathews_Lab1.csproj.GenerateResource.Cache

@@ -17,3 +17,9 @@ G:\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\DataStructuresAndAlgorithms\Random
 E:\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\DataStructuresAndAlgorithms\RandomCardShuffler\RandomCardShuffler\bin\Debug\RandomCardShuffler.exe.config
 E:\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\DataStructuresAndAlgorithms\RandomCardShuffler\RandomCardShuffler\obj\Debug\RandomCardShuffler.exe
 E:\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\DataStructuresAndAlgorithms\RandomCardShuffler\RandomCardShuffler\obj\Debug\RandomCardShuffler.pdb
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\DataStructuresAndAlgorithms\RandomCardShuffler\RandomCardShuffler\bin\Debug\RandomCardShuffler.exe.config
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\DataStructuresAndAlgorithms\RandomCardShuffler\RandomCardShuffler\obj\Debug\RandomCardShuffler.exe
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\DataStructuresAndAlgorithms\RandomCardShuffler\RandomCardShuffler\obj\Debug\RandomCardShuffler.pdb
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\DataStructuresAndAlgorithms\RandomCardShuffler\RandomCardShuffler\bin\Debug\RandomCardShuffler.exe
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\DataStructuresAndAlgorithms\RandomCardShuffler\RandomCardShuffler\bin\Debug\RandomCardShuffler.pdb
+D:\Backup-USB\Backup-NexxTech\Backup-USB\Manu Stuff\Sem2\DataStructuresAndAlgorithms\RandomCardShuffler\RandomCardShuffler\obj\Debug\RandomCardShuffler.csprojResolveAssemblyReference.cache
