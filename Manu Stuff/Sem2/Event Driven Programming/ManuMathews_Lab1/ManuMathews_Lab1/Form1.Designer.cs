@@ -49,6 +49,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.Lbl_Loading = new System.Windows.Forms.Label();
+            this.Refresh = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,7 +93,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.NavigationTxtBox.Location = new System.Drawing.Point(149, 33);
             this.NavigationTxtBox.Name = "NavigationTxtBox";
-            this.NavigationTxtBox.Size = new System.Drawing.Size(532, 20);
+            this.NavigationTxtBox.Size = new System.Drawing.Size(474, 20);
             this.NavigationTxtBox.TabIndex = 3;
             this.NavigationTxtBox.TextChanged += new System.EventHandler(this.NavigationTxtBox_TextChanged);
             this.NavigationTxtBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.NavigationTxtBox_KeyDown);
@@ -136,7 +137,7 @@
             // clearToolStripMenuItem
             // 
             this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.clearToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
             this.clearToolStripMenuItem.Text = "Clear";
             this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearToolStripMenuItem_Click);
             // 
@@ -174,7 +175,7 @@
             // Go
             // 
             this.Go.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Go.Location = new System.Drawing.Point(687, 31);
+            this.Go.Location = new System.Drawing.Point(629, 31);
             this.Go.Name = "Go";
             this.Go.Size = new System.Drawing.Size(35, 23);
             this.Go.TabIndex = 5;
@@ -242,6 +243,7 @@
             // 
             // Lbl_Loading
             // 
+            this.Lbl_Loading.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Loading.AutoSize = true;
             this.Lbl_Loading.Location = new System.Drawing.Point(579, 504);
             this.Lbl_Loading.Name = "Lbl_Loading";
@@ -249,11 +251,23 @@
             this.Lbl_Loading.TabIndex = 12;
             this.Lbl_Loading.Text = "Loading...";
             // 
+            // Refresh
+            // 
+            this.Refresh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Refresh.Location = new System.Drawing.Point(668, 31);
+            this.Refresh.Name = "Refresh";
+            this.Refresh.Size = new System.Drawing.Size(54, 23);
+            this.Refresh.TabIndex = 14;
+            this.Refresh.Text = "Refresh";
+            this.Refresh.UseVisualStyleBackColor = true;
+            this.Refresh.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 520);
+            this.Controls.Add(this.Refresh);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -300,6 +314,7 @@
         private System.Windows.Forms.ToolStripMenuItem clearToolStripMenuItem1;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label Lbl_Loading;
+        private System.Windows.Forms.Button Refresh;
     }
 }
 

@@ -126,5 +126,10 @@ namespace ManuMathews_Lab1
         {
             History.Items.Clear();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate(webBrowser1.Url.ToString());
+        }
     }
 }
