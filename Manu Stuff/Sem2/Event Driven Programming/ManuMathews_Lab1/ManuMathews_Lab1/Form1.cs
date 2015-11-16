@@ -29,11 +29,7 @@ namespace ManuMathews_Lab1
 
         private void NavigationTxtBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(Keys.Enter.ToString() == e.KeyChar.ToString());
-            {
 
-
-            }
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -59,9 +55,35 @@ namespace ManuMathews_Lab1
         private void webBrowser1_ProgressChanged(object sender, WebBrowserProgressChangedEventArgs e)
         {
             //use this to show load status of progress bar
+            //Collect number of bits to be loaded for webpage and set this as maximum for progressbar
+            //make progresbar minimum zero to be sure..?
             //make progressbar value equal number of bits (-1 means )
 
+            progressBar1.Maximum = (int)e.MaximumProgress + 1;
+            progressBar1.Minimum = 0;
+            
+            try
+            {
+                if (e.CurrentProgress == -1)
+                {
+                    progressBar1.Value = 0;
+                    Lbl_Loading.Visible = false;
+                }
+                if (e.CurrentProgress != -1)
+                {
+                    progressBar1.Value = (int)e.CurrentProgress;
+                    Lbl_Loading.Visible = true;
+                }
+            }
+            catch (Exception)
+            {
 
+            }
+            if(progressBar1.Value == 0)
+            {
+                Lbl_Loading.Visible = false;
+            }
+            
 
         }
 
@@ -70,13 +92,11 @@ namespace ManuMathews_Lab1
             History.Items.Add(webBrowser1.Url.ToString());
             NavigationTxtBox.Text = (webBrowser1.Url.ToString());
 
+
         }
 
         private void webBrowser1_Navigating(object sender, WebBrowserNavigatingEventArgs e)
         {
-            //use this to show load status of progress bar
-            //Collect number of bits to be loaded for webpage and set this as maximum for progressbar
-            //make progresbar minimum zero to be sure..?
         }
 
         private void Home_Click(object sender, EventArgs e)
@@ -92,6 +112,19 @@ namespace ManuMathews_Lab1
         private void Forward_Click(object sender, EventArgs e)
         {
             webBrowser1.GoForward();
+        }
+
+        private void NavigationTxtBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                Go.PerformClick();
+            }
+        }
+
+        private void clearToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            History.Items.Clear();
         }
     }
 }

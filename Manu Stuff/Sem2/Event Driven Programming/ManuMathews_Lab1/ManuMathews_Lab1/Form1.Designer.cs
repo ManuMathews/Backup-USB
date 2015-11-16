@@ -48,7 +48,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Lbl_Loading = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,6 +60,7 @@
             this.webBrowser1.Location = new System.Drawing.Point(149, 57);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.ScriptErrorsSuppressed = true;
             this.webBrowser1.Size = new System.Drawing.Size(588, 432);
             this.webBrowser1.TabIndex = 0;
             this.webBrowser1.Url = new System.Uri("http://Google.ca", System.UriKind.Absolute);
@@ -94,6 +95,7 @@
             this.NavigationTxtBox.Size = new System.Drawing.Size(532, 20);
             this.NavigationTxtBox.TabIndex = 3;
             this.NavigationTxtBox.TextChanged += new System.EventHandler(this.NavigationTxtBox_TextChanged);
+            this.NavigationTxtBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.NavigationTxtBox_KeyDown);
             this.NavigationTxtBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NavigationTxtBox_KeyPress);
             // 
             // menuStrip1
@@ -119,7 +121,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -134,8 +136,9 @@
             // clearToolStripMenuItem
             // 
             this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
+            this.clearToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.clearToolStripMenuItem.Text = "Clear";
+            this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearToolStripMenuItem_Click);
             // 
             // bookmarkToolStripMenuItem
             // 
@@ -150,21 +153,21 @@
             // addToolStripMenuItem
             // 
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.addToolStripMenuItem.Text = "Add";
             this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // clearToolStripMenuItem1
             // 
             this.clearToolStripMenuItem1.Name = "clearToolStripMenuItem1";
-            this.clearToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.clearToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
             this.clearToolStripMenuItem1.Text = "Clear";
             this.clearToolStripMenuItem1.Click += new System.EventHandler(this.clearToolStripMenuItem1_Click);
             // 
@@ -237,14 +240,14 @@
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 11;
             // 
-            // label3
+            // Lbl_Loading
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(579, 504);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Loading...";
+            this.Lbl_Loading.AutoSize = true;
+            this.Lbl_Loading.Location = new System.Drawing.Point(579, 504);
+            this.Lbl_Loading.Name = "Lbl_Loading";
+            this.Lbl_Loading.Size = new System.Drawing.Size(54, 13);
+            this.Lbl_Loading.TabIndex = 12;
+            this.Lbl_Loading.Text = "Loading...";
             // 
             // Form1
             // 
@@ -263,7 +266,7 @@
             this.Controls.Add(this.Bookmarks);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Lbl_Loading);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -296,7 +299,7 @@
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clearToolStripMenuItem1;
         private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Lbl_Loading;
     }
 }
 
