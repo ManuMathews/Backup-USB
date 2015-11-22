@@ -62,7 +62,7 @@
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.ScriptErrorsSuppressed = true;
-            this.webBrowser1.Size = new System.Drawing.Size(588, 432);
+            this.webBrowser1.Size = new System.Drawing.Size(588, 444);
             this.webBrowser1.TabIndex = 0;
             this.webBrowser1.Url = new System.Uri("http://Google.ca", System.UriKind.Absolute);
             this.webBrowser1.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser1_Navigated);
@@ -76,6 +76,8 @@
             this.Bookmarks.Name = "Bookmarks";
             this.Bookmarks.Size = new System.Drawing.Size(129, 160);
             this.Bookmarks.TabIndex = 1;
+            this.Bookmarks.SelectedIndexChanged += new System.EventHandler(this.Bookmarks_SelectedIndexChanged);
+            this.Bookmarks.DoubleClick += new System.EventHandler(this.Bookmarks_DoubleClick);
             // 
             // History
             // 
@@ -235,9 +237,9 @@
             // 
             this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.progressBar1.ForeColor = System.Drawing.Color.Lime;
-            this.progressBar1.Location = new System.Drawing.Point(637, 494);
+            this.progressBar1.Location = new System.Drawing.Point(637, 504);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.Size = new System.Drawing.Size(100, 13);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 11;
             // 
@@ -258,7 +260,7 @@
             this.Refresh.Name = "Refresh";
             this.Refresh.Size = new System.Drawing.Size(54, 23);
             this.Refresh.TabIndex = 14;
-            this.Refresh.Text = "Refresh";
+            this.Refresh.Text = "Reload";
             this.Refresh.UseVisualStyleBackColor = true;
             this.Refresh.Click += new System.EventHandler(this.button2_Click);
             // 

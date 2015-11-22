@@ -131,5 +131,15 @@ namespace ManuMathews_Lab1
         {
             webBrowser1.Navigate(webBrowser1.Url.ToString());
         }
+
+        private void Bookmarks_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Bookmarks_DoubleClick(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate(Bookmarks.SelectedItem.ToString());
+        }
     }
 }
