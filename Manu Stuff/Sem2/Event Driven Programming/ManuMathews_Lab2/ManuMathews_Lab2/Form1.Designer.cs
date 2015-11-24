@@ -73,6 +73,7 @@
             this.btn_Draw.TabIndex = 3;
             this.btn_Draw.Text = "Draw";
             this.btn_Draw.UseVisualStyleBackColor = true;
+            this.btn_Draw.Click += new System.EventHandler(this.btn_Draw_Click);
             // 
             // btn_Start
             // 
