@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.Btn_Size = new System.Windows.Forms.Button();
             this.Btn_Color = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // Btn_Size
@@ -52,6 +54,11 @@
             this.Btn_Color.UseVisualStyleBackColor = true;
             this.Btn_Color.Click += new System.EventHandler(this.button2_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -59,7 +66,9 @@
             this.ClientSize = new System.Drawing.Size(179, 77);
             this.Controls.Add(this.Btn_Color);
             this.Controls.Add(this.Btn_Size);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "ICA8";
             this.ResumeLayout(false);
 
@@ -69,6 +78,7 @@
 
         private System.Windows.Forms.Button Btn_Size;
         private System.Windows.Forms.Button Btn_Color;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

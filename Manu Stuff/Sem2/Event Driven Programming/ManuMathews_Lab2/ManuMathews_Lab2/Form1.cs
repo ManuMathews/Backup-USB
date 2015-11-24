@@ -18,9 +18,6 @@ namespace ManuMathews_Lab2
         public Form1()
         {
             InitializeComponent();
-            
-
-
         }
         CDrawer drawingBoard = new CDrawer();
 

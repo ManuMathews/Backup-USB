@@ -21,7 +21,7 @@ namespace ManuMathews_Lab2
         {
 
         }
-        public int trackbarValue = 200;
+        public static int trackbarValue = 200;
         
         public void trackBar1_Scroll(object sender, EventArgs e)
         {

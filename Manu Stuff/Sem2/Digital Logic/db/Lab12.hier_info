@@ -1,0 +1,12 @@
+|Lab12
+B <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+START => inst6.ACLR
+START => inst9.PRESET
+START => inst12.PRESET
+Clock => inst12.CLK
+Clock => inst9.CLK
+Clock => inst6.CLK
+A <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+C <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
