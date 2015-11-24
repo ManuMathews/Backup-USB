@@ -55,7 +55,7 @@ namespace ManuMathews_Lab2
 
         public void GameOfLifeUpdates()
         {
-
+            drawingBoard.Render();
         }
     }
 }
