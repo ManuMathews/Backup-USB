@@ -48,6 +48,7 @@
             this.btn_NewPattern.TabIndex = 0;
             this.btn_NewPattern.Text = "New Pattern";
             this.btn_NewPattern.UseVisualStyleBackColor = true;
+            this.btn_NewPattern.Click += new System.EventHandler(this.btn_NewPattern_Click);
             // 
             // label1
             // 
@@ -102,6 +103,7 @@
             this.btn_Cycle.TabIndex = 6;
             this.btn_Cycle.Text = "Cycle";
             this.btn_Cycle.UseVisualStyleBackColor = true;
+            this.btn_Cycle.Click += new System.EventHandler(this.btn_Cycle_Click);
             // 
             // timer1
             // 
