@@ -37,9 +37,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -208 352 -40 368)
+	(rect -184 360 -16 376)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Clock" (rect 5 0 34 12)(font "Arial" ))
+	(text "Clock" (rect 5 0 33 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -625,23 +625,15 @@ applicable agreement for further details.
 )
 (connector
 	(pt 24 368)
-	(pt 96 368)
-)
-(connector
-	(pt 24 360)
-	(pt 24 368)
-)
-(connector
-	(pt 24 368)
 	(pt 24 440)
 )
 (connector
-	(pt -48 360)
-	(pt -40 360)
+	(pt -16 368)
+	(pt 24 368)
 )
 (connector
-	(pt -40 360)
-	(pt 24 360)
+	(pt 24 368)
+	(pt 96 368)
 )
 (junction (pt 128 272))
 (junction (pt 128 456))
@@ -656,4 +648,3 @@ applicable agreement for further details.
 (junction (pt 24 368))
 (junction (pt 248 440))
 (junction (pt 224 272))
-(junction (pt -40 360))

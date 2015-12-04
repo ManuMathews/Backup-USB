@@ -1,0 +1,45 @@
+Searching and Sorting:
+______________________
+
+Linear Search: Does not require any particular ordering in collection
+	-> ,O(n) - Linear time.
+
+Binary Search: Requires collection to be ordered by the characteristic of interest
+	-> O(lb(n))
+
+Graph Searching: Structured as a network, branches or are inter-connected.
+	->Breadth- first search(BFS)
+		-Visit all immidiate neighbours first
+		-Visit all neighbours to those, etc.
+	->Depth- First Search
+		-Follow a path as far as you can, then back up, and look around and see if their the ones next to them have been 
+		 looked at, etc.lb
+--------------------------------------------------------------------------------------------------------------------------------
+Sorting Algorithms:
+	Two Standars types: 
+		-Quardatic (Search and replace)     (O(n^2))
+		-Linearithmic (Divide and conquer)  (O(n lb(n)))
+----------------------------------------------------------------------
+	Bubble Sort:
+		-Traverse the set. If 2 adjacent items are out of order, swap them.
+		-Keep Doing this until no swaps have occured on a traversal(<= n passes).
+	Selection Sort:
+		-Find largest element, swap with last element
+		-Find next largest element, swap with second largest
+		-Etc. (need to do n-1 passes)
+	Insertion Sort(Better for linked lists):
+		-Basically, rebuild the list, one at a time, by inserting them in sorted order.
+
+
+____________________________________________________________
+ICA >>
+1) Create a random array of size n. (int)
+2) Selection Sort(with a method)
+3) Create a random list of size n
+4) Insertion sort it.
+____________________________________________________________
+
+
+
+
+

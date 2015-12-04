@@ -1,5 +1,5 @@
 Simulator report for Lab12
-Mon Nov 23 11:36:22 2015
+Thu Dec 03 08:47:24 2015
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -160,7 +160,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Simulator
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Nov 23 11:36:21 2015
+    Info: Processing started: Thu Dec 03 08:47:23 2015
 Info: Command: quartus_sim --simulation_results_format=VWF Lab12 -c Lab12
 Info (324025): Using vector source file "E:/Backup-USB/Backup-NexxTech/Backup-USB/Manu Stuff/Sem2/Digital Logic/FPGACounter.vwf"
 Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
@@ -171,7 +171,7 @@ Info (328052): Number of transitions in simulation is 137
 Info (324045): Vector file Lab12.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
 Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 313 megabytes
-    Info: Processing ended: Mon Nov 23 11:36:22 2015
+    Info: Processing ended: Thu Dec 03 08:47:24 2015
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 

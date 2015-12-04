@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Lab12
-Mon Nov 23 11:39:44 2015
+Thu Dec 03 10:40:38 2015
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -34,7 +34,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                                       ;
 +---------------------------+------------------------------------------------------+
-; EDA Netlist Writer Status ; No Output Files Generated - Mon Nov 23 11:39:44 2015 ;
+; EDA Netlist Writer Status ; No Output Files Generated - Thu Dec 03 10:40:38 2015 ;
 ; Revision Name             ; Lab12                                                ;
 ; Top-level Entity Name     ; Lab12                                                ;
 ; Family                    ; Cyclone II                                           ;
@@ -47,13 +47,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Nov 23 11:39:43 2015
+    Info: Processing started: Thu Dec 03 10:40:37 2015
 Info: Command: quartus_eda --read_settings_files=on --write_settings_files=off Lab12 -c Lab12
 Warning (199027): Can't generate output files. Specify command-line options to generate output files, or update EDA tool settings using GUI or Tcl script.
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 382 megabytes
-    Info: Processing ended: Mon Nov 23 11:39:45 2015
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Thu Dec 03 10:40:38 2015
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
 
