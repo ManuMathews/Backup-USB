@@ -23,6 +23,7 @@ namespace ManuMathews_Lab2
         public byte[,] foregroundArray;
         public byte[,] backgroundArray;
         int numberOfInitallyEnabledPoints = 0;
+        SpeedDialog speedD = new SpeedDialog();
 
         public void Form1_Load(object sender, EventArgs e)
         {
@@ -30,16 +31,15 @@ namespace ManuMathews_Lab2
             textBox1.Text = "0";
             btn_NewPattern.Focus();
             drawingBoard.Scale = 10;
-
             freshStart();
         }
-
 
         public void freshStart()
         {
             Random randomNumber = new Random();
             numberOfInitallyEnabledPoints = randomNumber.Next(60, 1000);
-
+            btn_Stop.Enabled = false;
+            timer1.Stop();
 
             foregroundArray = new byte[80, 60];   //Reference: Rectangular/two-dimentional arrays
             backgroundArray = new byte[80, 60];   //Reference: Rectangular/two-dimentional arrays
@@ -68,28 +68,40 @@ namespace ManuMathews_Lab2
             drawingBoard.Render();
         }
 
-
-
         private void timer1_Tick(object sender, EventArgs e)
         {
+            if (speedD.trueOrFalse == true) btn_Stop.PerformClick();
             GameOfLifeOneStep();
+            timer1.Interval = speedD.trackbarValue;
         }
 
         private void btn_Start_Click(object sender, EventArgs e)
         {
-            SpeedDialog SpeedDialog1 = new SpeedDialog();
-            SpeedDialog1.ShowDialog();
-            timer1.Interval = SpeedDialog1.trackbarValue;
+            try
+            {
+                speedD.Show();
+                speedD.Visible = true;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Error: Please restart the program to use trackbar.", "Error", MessageBoxButtons.OK);
+            }
+
+            timer1.Interval = speedD.trackbarValue;
             timer1.Start();
+            btn_Stop.Enabled = true;
         }
-        
+
+        public int numberOfStepsInGOL = 0;
 
         public void GameOfLifeOneStep()
         {
+            numberOfStepsInGOL++;
+            textBox1.Text = numberOfStepsInGOL.ToString();
             drawingBoard.Clear();
-            for (int i = 0; i < 79; i++)
+            for (int i = 0; i < 80; i++)
             {
-                for (int j = 0; j < 59; j++)
+                for (int j = 0; j < 60; j++)
                 {
                     //check to see the number of neighbours (numberOfNeighbours) for foregroundArray[i,j] + Display new background array in drawer.
                     // check all 8 points
@@ -112,10 +124,17 @@ namespace ManuMathews_Lab2
                     if (backgroundArray[i,j] == 1) drawingBoard.AddRectangle(i, j, 1,1, Color.White);
 
                 }
-            }             
+            }
 
             //make foreground equal to background array
-            foregroundArray = backgroundArray;
+            for (int i = 0; i < 79; i++)
+            {
+                for (int j = 0; j < 59; j++)
+                {
+                    foregroundArray[i,j] = backgroundArray[i,j];
+                }
+            }
+
 
             //make all background array vaues 0
             for (int i = 0; i < 79; i++)
@@ -129,9 +148,12 @@ namespace ManuMathews_Lab2
             drawingBoard.Render();
         }
 
-
         public void btn_Draw_Click(object sender, EventArgs e)
         {
+            numberOfStepsInGOL = 0;
+            textBox1.Text = numberOfStepsInGOL.ToString();
+            timer1.Stop();
+            btn_Stop.Enabled = false;
             for (int i = 0; i < 79; i++)
             {
                 for (int j = 0; j < 59; j++)
@@ -141,8 +163,17 @@ namespace ManuMathews_Lab2
                 }
             }
             drawingBoard.Clear();
-        }
+            drawingBoard.Render();
 
+            //add code to receive the click points in a loop
+            //add the points to the forground array.. 
+            //display the new points
+            //end loop
+
+
+
+
+        }
 
         public int CheckingForNeighbours(int i, int j)
         {
@@ -265,7 +296,6 @@ namespace ManuMathews_Lab2
             return noOfNeghs;
         }
 
-
         private void btn_Cycle_Click(object sender, EventArgs e)
         {
             GameOfLifeOneStep();
@@ -274,9 +304,22 @@ namespace ManuMathews_Lab2
 
         private void btn_NewPattern_Click(object sender, EventArgs e)
         {
+            numberOfStepsInGOL = 0;
+            textBox1.Text = numberOfStepsInGOL.ToString();
             drawingBoard.Clear();
             foregroundArray = backgroundArray;
             freshStart();
+        }
+
+        public void btn_Stop_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            speedD.Visible = false;
+        }
+
+        public  void Pause()
+        {
+           btn_Stop.PerformClick();
         }
     }
 }

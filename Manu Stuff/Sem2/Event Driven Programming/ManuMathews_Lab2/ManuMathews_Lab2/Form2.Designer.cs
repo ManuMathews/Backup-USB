@@ -36,6 +36,7 @@
             // 
             // trackBar1
             // 
+            this.trackBar1.AccessibleName = "TrackBar1";
             this.trackBar1.LargeChange = 200;
             this.trackBar1.Location = new System.Drawing.Point(27, 18);
             this.trackBar1.Maximum = 2000;
@@ -78,6 +79,8 @@
             this.MinimizeBox = false;
             this.Name = "SpeedDialog";
             this.Text = "Speed";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SpeedDialog_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SpeedDialog_FormClosed);
             this.Load += new System.EventHandler(this.Speed_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
